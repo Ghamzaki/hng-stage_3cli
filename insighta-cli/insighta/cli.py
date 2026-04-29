@@ -27,7 +27,7 @@ console = Console()
 # ── Config ────────────────────────────────────────────────────────────────────
 
 CREDS_PATH = Path.home() / ".insighta" / "credentials.json"
-API_BASE = os.environ.get("INSIGHTA_API_URL", "https://hng-stage-3-lqvd.vercel.app/")
+API_BASE = os.environ.get("INSIGHTA_API_URL")
 API_HEADERS = {"X-API-Version": "1"}
 
 
